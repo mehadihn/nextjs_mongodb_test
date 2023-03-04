@@ -54,6 +54,8 @@ export default function editPosts(props : any) {
       };
 
     return (
+      <>
+      <title>Test MongoDb Edit</title>
         <div>
       <form action = '' method="post" onSubmit={handleSubmit}>
         <label>Title</label>
@@ -64,5 +66,6 @@ export default function editPosts(props : any) {
         <button type="submit">Submit</button>
         </form>
         </div>
+        </>
   )
 }

@@ -36,6 +36,7 @@ export default function addPosts() {
 
 
     return (
+    <><title>Test MongoDb Add</title>
             <div>
           <form action = '' method="post" onSubmit={handleSubmit}>
             <label>Title</label>
@@ -45,5 +46,6 @@ export default function addPosts() {
             <button type="submit">Submit</button>
             </form>
             </div>
+            </>
       )
 }

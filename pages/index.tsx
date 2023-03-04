@@ -39,6 +39,7 @@ export default function Posts(props : any) {
   console.log(props.posts[0])
   return (
     <>
+    <title>Test MongoDb</title>
     <h1>Post List</h1>
     <a href="/add">Add Post</a>
     {
